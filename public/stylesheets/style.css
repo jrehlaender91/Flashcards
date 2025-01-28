@@ -30,6 +30,8 @@ h1 {
 
 h2 {
   font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 a {
@@ -98,7 +100,13 @@ input {
 .namecard-greeting {
   font-size: 1em;
   font-weight: 400;
-  width: 50%;
+  float: left;
+  margin: 0 auto;
+  margin-top: -5px;
+}
+
+.namecard-login {
+  padding: 2rem;
 }
 
 .namecard-form {
@@ -141,14 +149,14 @@ input {
 }
 
 .namecard-exit {
-  width: 50%;
-  text-align: right;
+  float: right;
+  margin: 0 auto;
+  margin-top: -10px;
 }
 
 .namecard-exit button {
   background-color: #F5F3ED;
   border: none;
-  margin-top: 2px;
   outline: none;
 }
 
@@ -255,11 +263,10 @@ input {
   position: absolute;
   bottom: 10px;
   left: 20px;
-  padding-left: 500px:
 }
 
 .card-flip {
-  max-width: 25px;
+  max-width: 15px;
   background-color: #fff;
   border-radius: 50px;
   padding: 20px;
